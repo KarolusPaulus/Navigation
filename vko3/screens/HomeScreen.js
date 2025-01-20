@@ -1,14 +1,10 @@
 import React from 'react';
-import { View, Text, Button, StyleSheet } from 'react-native';
+import { View, Text, StyleSheet } from 'react-native';
 
-function HomeScreen({ navigation }) {
+function HomeScreen() {
   return (
     <View style={style.container}>
       <Text>Home Screen</Text>
-      <Button
-        title="Go to second screen"
-        onPress={() => navigation.navigate('Second')}
-      />
     </View>
   );
 }
